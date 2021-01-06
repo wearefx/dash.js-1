@@ -28,6 +28,7 @@
  *  ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
  *  POSSIBILITY OF SUCH DAMAGE.
  */
+import FactoryMaker from '../../core/FactoryMaker';
 
 /**
  * @module MssParser
@@ -796,4 +797,4 @@ function MssParser(config) {
 }
 
 MssParser.__dashjs_factory_name = 'MssParser';
-export default dashjs.FactoryMaker.getClassFactory(MssParser); /* jshint ignore:line */
+export default FactoryMaker.getClassFactory(MssParser); /* jshint ignore:line */
